@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+        
+}
+
+header{
+    margin-bottom: 55px;
+}
+
+nav{
+    background-color: #161616;    
+}
+
+#navbarNav img{
+    margin: 0px 2px 3px 0px;
+}
+
+.brand a{
+    font-family: KoHo;
+    text-decoration: none;
+    color: white;
+}
+
+.brand a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.ct01{
+    background: #48bd64;
+    height: auto;
+    margin-top: 2px;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ct01 h2{
+    text-align: center;
+    font-family: KoHo;
+}
+
+.ct01 p{
+    text-align: justify;
+    padding: 10px 10% 30px 10%;
+    
+}
+
+.ct02{
+    margin-bottom: 25px;
+}
+
+.jumbotron{
+    background-color:black !important;
+    color: white;
+    margin: 0px -15px;
+}
+
+.jumbo01{
+    background-image: url("../img/rtx.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.display-4{
+    font-family: Staatliches;
+}
+
+.green{
+    color: #4ac166;
+}
+
+.lead{
+    margin: 0px 50% 0px 0px;
+    text-align: justify;
+}
+
+.text{
+   padding: 0px 40px 0px 40px; 
+}
+
+.text h3{
+    font-family: Staatliches;
+}
+
+hr{
+    width: 30%;
+}
+
+footer{
+    background: #161616;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
